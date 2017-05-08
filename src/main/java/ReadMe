@@ -1,0 +1,20 @@
+It is assumed that id field is unique for Item.
+It is assumed that currency of money is fixed as GBP for all Item. There is aCurrency field is put in Price bu assumed as fixed
+
+Some payment classes are created but payment method and details are ignored.
+
+There is a main method in Runner class if you want to run as java application.
+There are detailed tests that you can run to see the flow of application.
+
+
+Sample Output
+[item:bread	quantity:1	Amount:10
+, item:tea	quantity:3	Amount:60
+, item:banana	quantity:5	Amount:25
+]
+Actual Total:95
+Total Discount Amount:35
+Vat Percentage:	20
+Vat Total:	12
+******************************
+Grand Total:	60
